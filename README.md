@@ -6,9 +6,9 @@ https://rg-sms-spam-detector.streamlit.app
 ### Requirements
 To run this project, you need to have Python 3 and the following libraries installed:
 
-pandas
-numpy
-scikit-learn
-nltk
-matplotlib
-seaborn
+- pandas
+- numpy
+- scikit-learn
+- nltk
+- matplotlib
+- seaborn
