@@ -45,8 +45,8 @@ def transform_text(text):
     # Convert the list of stemmed words back into a string
     return " ".join(y)
 
-tfidf = pickle.load(open('vectorizer.pkl','rb'))
-model = pickle.load(open('model.pkl','rb'))
+tfidf = pickle.load(open('Pickle Objects/vectorizer.pkl','rb'))
+model = pickle.load(open('Pickle Objects/model.pkl','rb'))
 
 # Define the app title
 st.title("SMS Spam Detection")
